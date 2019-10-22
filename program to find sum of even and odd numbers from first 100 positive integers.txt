@@ -1,0 +1,23 @@
+/*Write a program to find sum of even and odd numbers from
+  first 100 positive integers.*/
+#include<stdio.h>
+int main()
+{
+int num=0,Se=0,So=0;
+while(num<=100)
+{
+ if(num%2==0)
+ {
+  Se+=num;
+  num++;
+ }
+ else
+ {
+   So+=num;
+    num++;
+ }
+}
+printf("Sum of even numbers from first 100 positive integers = %d",Se);
+printf("\nSum of odd numbers from first 100 positive integers = %d\n",So);
+return 0;
+}

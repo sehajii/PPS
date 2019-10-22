@@ -1,0 +1,23 @@
+             Colour code using switch satements
+
+#include<stdio.h>
+//if
+//else if
+//else
+int main()
+{
+char code;
+printf("Enter colour code = ");
+scanf("%c",&code);
+switch(code)
+{
+case 'y': printf("Yellow colour");
+                break;
+case 'b': printf("Blue colour");
+                break;
+default : printf("Invalid output");
+               break;                                                               
+return 0;
+}
+   
+}                                                                                   

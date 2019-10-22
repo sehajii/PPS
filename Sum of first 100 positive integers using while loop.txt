@@ -1,0 +1,25 @@
+         Sum of first 100 positive integers using while loop
+
+/*While statementis suited for the problem where it is known
+ in advance that how many times a statement block will be 
+ executed.
+ While (expression)
+ {
+  statement
+ }
+ -There must be astatement prior to while statement that 
+  initializes the expresssion.
+ -In the statement block there must be a statement that 
+  modifies the expression. */
+#include<stdio.h>
+int main()     
+{
+int sum=0,num=1; /*Initialising*/
+while(num<=100) 
+{
+sum+=num;
+num++;           /*modifying*/
+}
+printf("Sum of first 100 positive integers = %d\n",sum);                            
+return 0;
+}

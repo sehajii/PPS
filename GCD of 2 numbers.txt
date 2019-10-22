@@ -1,0 +1,17 @@
+			TO FIND GREATEST COMMON DIVISOR(GCD) OF 2 NUMBERS
+
+#include<stdio.h>
+int main()
+{
+int m,n,r=1;
+printf("\nEnter value for m,n:");
+scanf("\n%d %d",&m,&n);
+while(r!=0)
+{
+ r=n%m;
+ n=m;
+ m=r;
+}
+printf("\nGCD = %d\n",n);
+return 0;
+}

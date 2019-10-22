@@ -1,0 +1,22 @@
+              To check a number is a pallindrome number
+
+#include<stdio.h>
+int main()
+{
+int sum=0,digit;
+int num,temp;
+printf("\nEnter any positive number : ");
+scanf("%d",&num);
+temp=num;
+while(temp>0)
+{
+ digit=temp%10;
+ temp/=10;
+ sum=sum*10+ digit;
+}
+if(num==sum)
+printf("\n%d is a pallindrome number\n",num);
+else
+printf("\n%d is not a pallindrome number\n",num);
+return 0;
+}

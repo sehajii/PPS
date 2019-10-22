@@ -1,0 +1,20 @@
+ Greater of 2 number:
+
+#include<stdio.h>
+int main()
+{
+int a,b;
+printf("Enter value of a = ");
+scanf("%d",&a);
+printf("\nEnter vazlue of b = ");
+scanf("%d",&b);
+if(a>b)
+{
+printf("\na is greater number");
+}
+else
+{
+printf("\nb is gerater number");
+}
+return 0;
+}

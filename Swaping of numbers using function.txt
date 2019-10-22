@@ -1,0 +1,40 @@
+ Swaping of numbers using function
+
+/*Declaring and Defining functions
+~For declaring a function the return type ,the function main & formal list is included.
+ This is also called as function header followed by a ';'.
+~These decleration are placed in global decleration section before the main function.
+This is also called function prototype.
+~The function decleration is followed by function body which contains local 
+decleration & statemets that definestasks to be acompanied by the fuction.
+ At last a function is defined with the same parts but no ';' at end.*/
+#include<stdio.h>
+void swap(int a,int b);
+void main()
+{
+int x,y;
+printf("\nEnter value for x : ");
+scanf("%d",&x);
+printf("\nEner value for y : ");
+scanf("%d",&y);
+printf("\nBefore calling swap function.\n");
+printf("\nValue of x=%d, Value of y=%d",x,y);
+swap(x,y);      //function calling
+printf("\n Returning from swap function");
+printf("\nValue of x=%d, value of y=%d",x,y);
+}
+void swap (int a,int b)
+{
+int temp;
+printf("\nInside the function\n");
+printf("\nValue of a=%d, Value of b=%d before swaps\n",a,b);
+temp=a;
+a=b;
+b=temp;
+printf("\nValue of a=%d, Value of b=%d after swap\n",a,b);
+}
+
+/*In this approch the actual argument are used in a function called that can be a vaiable,constant or an expression.
+The values of actual argument are passed through a function.
+  When control is transfferd to called functionthe values of actual arguments are substituted through formal arguments
+ & the body of function is executed*/
