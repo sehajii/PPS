@@ -1,4 +1,4 @@
-          CREATING CODE TO FIND WEEK DAY
+          //CREATING CODE TO FIND WEEK DAY
 
 #include<stdio.h>
 int main()
