@@ -1,4 +1,4 @@
-		FIZZBUZZ
+		//FIZZBUZZ
                
 #include<stdio.h>
 int main()
