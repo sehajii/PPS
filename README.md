@@ -1,15 +1,16 @@
-     #**PPS**
-##   _Name_   - *SEHAJBIR SINGH*
-##   _Roll No_- *1915071*
-##   _Branch_ - *COMPUTER SCIENCE & ENGINEERING*
-##   _Section_- *CS(B)*   
+#**PPS**
+
+##   _Name_   - **SEHAJBIR SINGH**
+##   _Roll No_- **1915071**
+##   _Branch_ - **CSE**
+##   _Section_- **B**
 
 ![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg)
-## **DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING**
-# **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA**  
+
+# **PPS PRACTICAL FILE**  
   
   
-## CODE
+## PROGRAMS
 
 #### I `WAP to Add two numbers`  
   
