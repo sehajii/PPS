@@ -389,7 +389,7 @@ if(a[mid]<n)
 first=mid+1;  
 else if(a[mid]==n)  
 {  
-printf("%d found at position #%d.\n",n,mid+1);    
+printf("%d found at position %d.\n",n,mid+1);    
 break;  
 }  
 else  
